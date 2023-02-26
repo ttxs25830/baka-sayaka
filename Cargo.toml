@@ -1,0 +1,17 @@
+[package]
+name = "baka-sayaka"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[features]
+default = ["embed-asset"]
+unkill-signal = ["signal-hook"]
+unkill-advance = []
+embed-asset = ["rust-embed"]
+
+[dependencies]
+anyhow = "1.0.69"
+rodio = "0.17"
+rust-embed = {version = "6.4",  optional = true}
+signal-hook = {version = "0.3",  optional = true}
