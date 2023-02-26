@@ -12,6 +12,7 @@ embed-asset: 将音乐捆绑入二进制文件内，否则将会在运行时读�
 
 unkill-signal： 启用后会忽略所有可以忽略的信号，防止普通关闭
 
-unkill-advance： Windows下运行时会持续尝试关闭taskmgr.exe，其他OS下无作用
+unkill-advance： Windows下运行时会持续尝试关闭taskmgr.exe，其他OS下无作用（请注意关闭taskmgr需要管理员权限，因此请将程序提升运行，本程序不会主动检查是否已经被提升，请手动尝试）
+
 
 > 本项目遵循GPL-3.0开源协议

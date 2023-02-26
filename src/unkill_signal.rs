@@ -13,7 +13,7 @@ pub fn init() {
         (1..32)
             .filter(|v| !FORBIDDEN.contains(&v))
             .for_each(|v| unsafe {
-                register(v, || ()).expect(format!("Err reg {}", v).as_str());
+                drop(register(v, || ()));
             })
     });
 }
