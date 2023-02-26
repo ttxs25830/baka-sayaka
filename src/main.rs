@@ -28,6 +28,5 @@ fn main() {
     device
         .play_raw(decretum.repeat_infinite().convert_samples())
         .unwrap();
-    println!("HEY");
     thread::sleep(Duration::from_secs(114514));
 }
