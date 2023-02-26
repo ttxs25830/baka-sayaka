@@ -1,5 +1,5 @@
 # BakaSayaka
-一个简单的，难以被关闭的循环播放“Decretum（宿命）”（Sayaka处刑曲）的Rust程序。
+一个简单的，难以被关闭的循环播放《Decretum（宿命）》（Sayaka处刑曲）的Rust程序。
 
 > Sayaka第二次发现自己是笨蛋十二周年献礼（根据第八集播出时间）
 
